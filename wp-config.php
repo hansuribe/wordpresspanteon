@@ -35,7 +35,7 @@ else:
     define('DB_PASSWORD', $_ENV['DB_PASSWORD']);
 
     /** MySQL hostname; on Pantheon this includes a specific port number. */
-    define('DB_HOST', $_ENV['DB_HOST'] . ':' . $_ENV['DB_PORT']);
+    define('DB_HOST', $_ENV['Localhost'] . ':' . $_ENV['DB_PORT']);
 
     /** Database Charset to use in creating database tables. */
     define('DB_CHARSET', 'utf8');
